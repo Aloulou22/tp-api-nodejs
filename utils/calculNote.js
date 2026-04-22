@@ -16,3 +16,8 @@ function calculMention(moyenne) {
   if (moyenne >= 10) return 'Passable';
   return 'Insuffisant';
 }
+
+module.exports = {
+  isValidMoyenne,
+  calculMention
+};
